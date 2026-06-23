@@ -1,6 +1,6 @@
 # 📝 Couples Holding Hands (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/couples-holding-hands)
+🔗 [Problem Link](https://leetcode.com/problems/couples-holding-hands/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red) ![Language](https://img.shields.io/badge/Language-Python-blue)
 
