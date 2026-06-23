@@ -8,7 +8,7 @@
 Array, Dynamic Programming, Breadth-First Search
 
 ### 🚀 Performance
-- **Runtime:** N/A
+- **Runtime:** Successfully Evaluated
 - **Memory:** N/A
 
 ---
