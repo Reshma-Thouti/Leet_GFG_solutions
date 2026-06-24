@@ -1,6 +1,6 @@
 # 📝 N (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)
+🔗 [Problem Link](https://leetcode.com/problems/n-ary-tree-level-order-traversal)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Python-blue)
 
