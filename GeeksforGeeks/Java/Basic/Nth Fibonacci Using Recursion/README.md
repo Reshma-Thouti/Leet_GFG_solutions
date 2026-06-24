@@ -14,8 +14,8 @@ GFG Problem
 ---
 
 ### 📜 Problem Description
-<p><span style="font-size: 18px;">You are given a number <strong>n</strong>. You need to find<strong> </strong>the<strong> n<sup>th</sup></strong> Fibonacci number.</span></p>
-<p><span style="font-size: 18px;"><strong>Note:</strong> F(n) = F(n-1) + F(n-2) ; where F(0) = 0 and F(1) = 1<strong><br></strong><br></span><span style="font-size: 18px;"><strong>Example:</strong></span></p>
+<p><span style="font-size: 18px;">Given a number <strong>n</strong>, return<strong> </strong>the<strong> n<sup>th</sup></strong> Fibonacci number.</span></p>
+<p><span style="font-size: 18px;"><strong>Note:</strong> If F(n) is n<sup>th</sup> fibonacci number then , F(n) = F(n-1) + F(n-2) ; where F(0) = 0 and F(1) = 1<strong><br></strong><br></span><span style="font-size: 18px;"><strong>Example:</strong></span></p>
 <pre><span style="font-size: 18px;"><strong>Input: </strong>n = 3
 <strong>Output: </strong>2<strong>
 Explanation: </strong></span><span style="font-size: 14pt;">The Fibonacci sequence starts as 0, 1, 1, 2, 3, 5... The 3rd Fibonacci number is 2.</span></pre>
