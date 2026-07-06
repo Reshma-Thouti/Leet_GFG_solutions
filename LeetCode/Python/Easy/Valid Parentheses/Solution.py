@@ -5,6 +5,8 @@ class Solution:
             '}':'{',
             ']':'['
         }
+        if len(s)==1:
+            return False
         st=[]
         for ch in s:
             if ch in '({[':
