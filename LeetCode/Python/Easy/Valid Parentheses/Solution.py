@@ -14,4 +14,7 @@ class Solution:
             else:
                 if dic[ch]!=st.pop():
                     return False
-        return True
+        if not st:
+            return True
+        else:
+            return False
