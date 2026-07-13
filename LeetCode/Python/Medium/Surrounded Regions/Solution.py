@@ -18,7 +18,6 @@ class Solution:
             dfs(r, c + 1)
             dfs(r, c - 1)
 
-        # Start DFS from all border O's
         for i in range(m):
             dfs(i, 0)
             dfs(i, n - 1)
@@ -27,7 +26,6 @@ class Solution:
             dfs(0, j)
             dfs(m - 1, j)
 
-        # Flip surrounded O's and restore border-connected O's
         for i in range(m):
             for j in range(n):
                 if board[i][j] == "O":
