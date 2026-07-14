@@ -1,6 +1,6 @@
 # 📝 Course Schedule (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/course-schedule)
+🔗 [Problem Link](https://leetcode.com/problems/course-schedule/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Python-blue)
 
