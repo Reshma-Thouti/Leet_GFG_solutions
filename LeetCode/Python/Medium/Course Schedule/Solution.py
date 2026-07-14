@@ -6,6 +6,8 @@ class Solution:
         id=[0]*nc
 
         for u,v in prerequisites:
+            if u==v:
+                return False
             c[u].append(v)
             id[u]+=1
         q=[]
