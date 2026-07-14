@@ -20,7 +20,4 @@ class Solution:
                 id[ele]-=1
                 if id[ele]==0:
                     q.append(ele)
-        if mc==nc:
-            return res
-        else:
-            return []
+        return res
