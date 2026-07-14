@@ -1,33 +1,32 @@
+from collections import deque
+
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        
-        nc=numCourses
-        c=[[] for _ in range(nc)]
-        id=[0]*nc
 
-        for u,v in prerequisites:
-            if u==v:
+        c = [[] for _ in range(numCourses)]
+        id = [0] * numCourses
+
+        for u, v in prerequisites:
+            if u == v:
                 return False
-            c[u].append(v)
-            id[u]+=1
-        q=[]
-        for i in range(nc):
-            if id[i]==0:
+            c[v].append(u)      # reverse edge
+            id[u] += 1          # indegree of u
+
+        q = deque()
+
+        for i in range(numCourses):
+            if id[i] == 0:
                 q.append(i)
-        if not q:
-            return False
-        # while q:
-        #     mc+=1
 
-        #     for _ in range(len(q)):
-        #         ele=q.pop(0)
-        #         for e in c[ele]:
-        #             if id[ele]==0:
-        #                 id[e]-=1
-        #                 q.append(e)
-        return True
+        mc = 0
 
-        
+        while q:
+            ele = q.popleft()
+            mc += 1
 
-            
-            
+            for e in c[ele]:
+                id[e] -= 1
+                if id[e] == 0:
+                    q.append(e)
+
+        return mc == numCourses
