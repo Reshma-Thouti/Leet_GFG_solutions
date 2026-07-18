@@ -8,7 +8,7 @@ class Solution:
         for i in range(0,n):
             if j==-1 and nums[i]==0:
                 j=i
-            if i!=j and nums[i]!=0:
+            if j!=-1 and i!=j and nums[i]!=0:
                 nums[i], nums[j]=nums[j],nums[i]
                 j+=1
             
