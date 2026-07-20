@@ -4,6 +4,6 @@ class Solution:
         mc=Counter(magazine)
 
         for ch in rc:
-            if rc[ch]!=mc[ch]:
+            if rc[ch]>mc[ch]:
                 return False
         return True
