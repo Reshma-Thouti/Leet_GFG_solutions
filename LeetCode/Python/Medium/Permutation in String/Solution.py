@@ -5,7 +5,7 @@ class Solution:
                 return
             for j in range(i,len(s1)):
                 s1[i],s1[j]=s1[j],s1[i]
-                self.permutations(res, s1, j+1)
+                self.permutations(res, s1, i+1)
                 s1[i],s1[j]=s1[j],s1[i]
     
     def checkInclusion(self, s1: str, s2: str) -> bool:
